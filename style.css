@@ -1,6 +1,6 @@
 * {
     text-decoration: none;
-    font-family: 
+    
     
   }
   
@@ -34,28 +34,30 @@
     font-family: Open Sans condensed;
     
   }
-  header .navbar ul li a {
-    
+  header .main{
+     display: grid;
+     background-color: #ffa500;
+     padding: 10px auto; 
   }
+ 
   header .main h1{
    display: block;
    text-align: center;
    font-family: Prompt;
-   font-weight: 400px;
-   background-color: #ffa500;
+   font-weight: 400px;   
    font-size: 60px;
    text-shadow: 1px 2px gray;
    }
   
   header .main h3 {
-    display: block;
+    
     text-align: center;
-    font-family: Barlow semi condensed;
+    font-family: 'Barlow semi condensed';
     background-color: #ffa500;
     font-size: 30px;
   }
   .mission h2 {
-    font-family: Prompt;
+    font-family: 'Prompt';
     font-size: 30px;
     font-weight: 25px;
     text-align: left;
@@ -63,7 +65,7 @@
     text-shadow: 1px 2px gray;
   }
   .mission p {
-    font-family: Barlow semi condensed;
+    font-family: 'Barlow semi condensed';
     font-size: 25px;
     font-weight: 15px;
     text-align: left;
@@ -97,12 +99,12 @@
     width: 100%;
   }
   .quote h1 {
-    font-family: Prompt;
+    font-family: 'Prompt';
     font-weight: 20px;
     font-size: 30px;
   }
   .quote p {
-    font-family: barlow semi condensed;
+    font-family: 'barlow semi condensed';
     font-size: 20px;
     font-weight: 100;
     display: block;
@@ -121,7 +123,7 @@
     padding: 0 20px;
     margin: 0 auto;
     color: black;
-    font-family: Open Sans condensed;
+    font-family: 'Open Sans condensed';
   }
   @media for screen only {
   
