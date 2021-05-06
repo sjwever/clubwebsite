@@ -1,0 +1,129 @@
+* {
+    text-decoration: none;
+    font-family: 
+    
+  }
+  
+  body {
+    background-color: #f3f3f3;
+    display: grid;
+    grid-template: 4 3;
+  
+  }
+  header .navbar {
+    background-color: #fff;
+    width: 100%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+  }
+  header .navbar ul{
+    display: block;
+    margin: 0 auto;
+   width: fit-content;
+  }
+  header .navbar ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 20px;
+    margin: 0 auto;
+    color: black;
+    font-family: Open Sans condensed;
+    
+  }
+  header .navbar ul li a {
+    
+  }
+  header .main h1{
+   display: block;
+   text-align: center;
+   font-family: Prompt;
+   font-weight: 400px;
+   background-color: #ffa500;
+   font-size: 60px;
+   text-shadow: 1px 2px gray;
+   }
+  
+  header .main h3 {
+    display: block;
+    text-align: center;
+    font-family: Barlow semi condensed;
+    background-color: #ffa500;
+    font-size: 30px;
+  }
+  .mission h2 {
+    font-family: Prompt;
+    font-size: 30px;
+    font-weight: 25px;
+    text-align: left;
+    display: block;
+    text-shadow: 1px 2px gray;
+  }
+  .mission p {
+    font-family: Barlow semi condensed;
+    font-size: 25px;
+    font-weight: 15px;
+    text-align: left;
+    display: block;
+  }
+  .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    justify-items: stretch;
+  }
+  .photos2 {
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 10px;
+    justify-items: stretch;
+  }
+  
+  .photos img {
+    display: grid;
+    justify-self: center;
+    align-self: stretch;
+    width: 100%;
+  }
+  .photos2 img{
+    display: grid;
+    justify-self: center;
+    align-self: stretch;
+    width: 100%;
+  }
+  .quote h1 {
+    font-family: Prompt;
+    font-weight: 20px;
+    font-size: 30px;
+  }
+  .quote p {
+    font-family: barlow semi condensed;
+    font-size: 20px;
+    font-weight: 100;
+    display: block;
+    text-align: left;
+  
+  }
+  footer .navbar ul{
+    display: block;
+    margin: 0 auto;
+   width: fit-content;
+  }
+  footer .navbar ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 20px;
+    margin: 0 auto;
+    color: black;
+    font-family: Open Sans condensed;
+  }
+  @media for screen only {
+  
+  }
+  
