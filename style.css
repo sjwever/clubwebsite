@@ -1,16 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
 * {
-    text-decoration: none;
+    text-decoration: none;     
     
-    
-  }
-  
+  }  
   body {
-    background-color: #f3f3f3;
-    display: grid;
-    grid-template: 4 3;
+    background-color: #8acef5;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
   
   }
-  header .navbar {
+  .navbar {
     background-color: #fff;
     width: 100%;
     height: 20px;
@@ -19,98 +20,112 @@
     text-align: center;
     padding: 10px 0;
   }
-  header .navbar ul{
-    display: block;
+  .navbar ul{
+    display: flex;
     margin: 0 auto;
-   width: fit-content;
-  }
-  header .navbar ul li{
-    display: inline-block;
-    float: left;
+    width: fit-content; 
     list-style: none;
-    padding: 0 20px;
-    margin: 0 auto;
-    color: black;
-    font-family: Open Sans condensed;
     
   }
-  header .main{
-     display: grid;
-     background-color: #ffa500;
-     padding: 10px auto; 
+  .navbar ul li{
+    color: black;   
+    padding: 0 20px;
+       
+  }
+  .main {
+    display: block; 
+    height: 30rem;
+    padding: 10px auto; 
   }
  
-  header .main h1{
+  .main h1{
    display: block;
    text-align: center;
-   font-family: Prompt;
-   font-weight: 400px;   
-   font-size: 60px;
-   text-shadow: 1px 2px gray;
+   margin-top: 10rem;
+   font-weight: bold;   
+   font-size: 2rem;
+   text-shadow: 2px 2px rgb(5, 4, 4);
+   background-color: rgb(51, 37, 46);
+   color: #8acef5;
+   padding: 2rem;
    }
   
-  header .main h3 {
-    
+  .main h3 {    
     text-align: center;
-    font-family: 'Barlow semi condensed';
-    background-color: #ffa500;
-    font-size: 30px;
+    font-size: 1.5rem;
+  }
+  .mission{
+      padding: 1rem;
+      margin: 4rem auto;
+      background-color: rgb(51, 37, 46);
+      color: white;
   }
   .mission h2 {
-    font-family: 'Prompt';
-    font-size: 30px;
-    font-weight: 25px;
-    text-align: left;
-    display: block;
-    text-shadow: 1px 2px gray;
+    color: #8acef5;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 1px 2px black;
   }
-  .mission p {
-    font-family: 'Barlow semi condensed';
-    font-size: 25px;
-    font-weight: 15px;
+  .mission p {    
+    font-size: 1.5rem;
     text-align: left;
-    display: block;
+    
+  }
+  .mission a{
+      background-color: white;
+      color:rgb(51, 37, 46);
+      border-radius: 5px;
+      padding: 3px;
+      font-weight: bold;
+      cursor: pointer;
+
+
   }
   .photos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 10px;
-    justify-items: stretch;
+    margin: 4em auto;
   }
-  .photos2 {
-     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    column-gap: 10px;
-    justify-items: stretch;
-  }
+  
   
   .photos img {
-    display: grid;
-    justify-self: center;
-    align-self: stretch;
+    margin-left:auto;
+    margin-right: auto;
     width: 100%;
+    margin: 1.5%;
   }
-  .photos2 img{
-    display: grid;
-    justify-self: center;
-    align-self: stretch;
-    width: 100%;
+  .quote{
+      background-color: white;
+      color:rgb(51, 37, 46);
+      padding:0 1rem;
+      padding-top: 1rem;
+      height: 20rem;
   }
+  
   .quote h1 {
     font-family: 'Prompt';
-    font-weight: 20px;
-    font-size: 30px;
+    
+    font-size: 2rem;
   }
   .quote p {
-    font-family: 'barlow semi condensed';
-    font-size: 20px;
-    font-weight: 100;
-    display: block;
+    font-size: 1rem;   
     text-align: left;
-  
   }
+
+  .meetup{
+      margin-bottom: 2rem;
+  }
+.meetup h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color:rgb(51, 37, 46);
+
+}
+.meetup img{
+    width: 50%;
+    margin: auto;
+    height: auto;
+    display: block;
+}
   footer .navbar ul{
     display: block;
     margin: 0 auto;
@@ -125,7 +140,12 @@
     color: black;
     font-family: 'Open Sans condensed';
   }
-  @media for screen only {
+  @media for screen only and(max-width: 1080px){
+      .photos img{
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+      }
   
   }
   
