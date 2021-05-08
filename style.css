@@ -126,26 +126,20 @@
     height: auto;
     display: block;
 }
-  footer .navbar ul{
-    display: block;
-    margin: 0 auto;
-   width: fit-content;
-  }
-  footer .navbar ul li {
-    display: inline-block;
-    float: left;
-    list-style: none;
-    padding: 0 20px;
-    margin: 0 auto;
-    color: black;
-    font-family: 'Open Sans condensed';
-  }
-  @media for screen only and(max-width: 1080px){
+ 
+  
+  @media for screen only and (max-width: 1048px){
       .photos img{
           width: 100%;
           margin-left: auto;
           margin-right: auto;
       }
-  
+        
+  }
+  @media for screen only and (max-width: 2185px){
+      .photos img{
+          width: 30%;
+          margin: 1.5%;
+      }
   }
   
